@@ -10,4 +10,4 @@
 * Easy-to-use, mobile-friendly UI with form validation.
 * Built using pure HTML, CSS, and JavaScript – no frameworks required.
 
-### ❤️ Created with love by [Lasyapriya PSS]
+### ❤️ Created with love by Lasyapriya PSS
