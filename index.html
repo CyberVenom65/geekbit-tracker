@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GeekBit Tracker Pro</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -69,6 +69,21 @@
       text-align: center;
       font-size: 14px;
       color: #6a1b9a;
+      background: transparent;
+      padding: 5px 0;
+      z-index: 1000;
+    }
+    .red-heart {
+      color: red;
+    }
+    footer a {
+      color: #6a1b9a;
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 5px;
+    }
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -96,9 +111,10 @@
     <canvas id="pointsChart" width="400" height="200"></canvas>
   </div>
 
-  <footer>
-    Made with ❤️ by Lasyapriya PSS
-  </footer>
+  <div style="text-align: center; font-size: 14px; color: #6a1b9a; padding-bottom: 40px;">
+    Made with <span class="red-heart">❤</span> by Lasya Priya PSS · 
+    <a href="https://github.com/CyberVenom65" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
 
   <script>
     function startTracking() {
